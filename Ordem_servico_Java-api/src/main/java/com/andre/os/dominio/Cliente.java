@@ -3,14 +3,12 @@ package com.andre.os.dominio;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
 
-import java.io.Serial;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
 public class Cliente extends Pessoa implements Serializable {
-    @Serial
     private static final long serialVersionUID = 1L;
 
     @OneToMany(mappedBy = "cliente") // Corrigindo o relacionamento e erro de digitação

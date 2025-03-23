@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 @RestController
 // Define o endpoint base da API para "tecnicos"
 @RequestMapping(value = "/tecnicos")
-public class TecnicoResoruce { // teste para modificações teste para commit
+public class TecnicoResoruce {
 
     // Injeta automaticamente o serviço de Técnico
     @Autowired
